@@ -8,7 +8,7 @@ public class hm31 {
 		String s="abcdefghijk";
 		Insert(s,"234",8);
 	}
-	public static String Insert(String S,String A ,int n){
+	public static void Insert(String S,String A ,int n){
 		  char[] s=S.toCharArray();
 		  char[] a=A.toCharArray();
 		  String Res=S+A;
@@ -22,7 +22,7 @@ public class hm31 {
 			  if(n<=0||n>s.length){
 				  System.out.println("输入错误！    插入位置超出数组范围");
 			      System.out.println("请再次运行并输入符合要求的位置。");
-				  return null;
+				  return;
 			  };
 		  }catch(Exception e){
 			}
@@ -39,7 +39,7 @@ public class hm31 {
 		  for ( i = 0; i <res.length; i++) {
 			    System.out.print(res[i]);
 			}
-		return Res;
+		return ;
 		
 	}
 
