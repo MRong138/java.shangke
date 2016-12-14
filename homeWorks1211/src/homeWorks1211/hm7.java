@@ -13,7 +13,6 @@ public class hm7 {
 		int shu=0;
 		int hanzi=0;
 		int zimu=0;
-		char[]a,b,c;
 		for (int i = 0; i < s.length; i++) {
 			if(s[i]>='0'&&s[i]<='9')
 				shu++;
