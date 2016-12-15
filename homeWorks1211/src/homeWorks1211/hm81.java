@@ -10,9 +10,10 @@ public class hm81 {
 	    String s=sc.next();
 	    char[] h=s.toCharArray();
 		for (int j = 0; j <h.length/2; j++) {
-			if(h[j]!=h[h.length-1-j])
+			if(h[j]!=h[h.length-1-j]){
 				flag=false;
-			break;
+			    break;
+			}
 		}
 		
 		if(flag)
