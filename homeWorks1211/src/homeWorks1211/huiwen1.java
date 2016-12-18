@@ -1,6 +1,6 @@
 package homeWorks1211;
 import java.io.IOException;
-public class hm8 {
+public class huiwen1 {
 
 	public static void main(String[] args) {
 		int i=0,n=0;

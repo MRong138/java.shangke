@@ -1,7 +1,7 @@
 package homeWorks1211;
 
 
-public class hm32 {
+public class shanchu {
 	public static void main(String []arsg){
 		String S="abcdefghijk";
 		delete(S,3,5);	
@@ -9,7 +9,7 @@ public class hm32 {
 	public static void delete(String S,int a,int b){
 		  char[] s=S.toCharArray();
 		  int j,i;
-		  System.out.println("数组信息"+S);
+System.out.println("数组信息"+S);
 		  System.out.println("删除的位置"+a);
 		  System.out.println("需要删除数组的元素个数"+b);
 

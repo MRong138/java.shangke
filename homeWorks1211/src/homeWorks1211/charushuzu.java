@@ -3,7 +3,7 @@ package homeWorks1211;
 //3、编写一端程序 ： 从控制台输入要插入的位子 和要插入的值根据位子把值插入到数组中 
 //输出插入后的数组的全部信息
 
-public class hm31 {
+public class charushuzu {
 	public static void main(String [] args){
 		String s="abcdefghijk";
 		Insert(s,"234",8);

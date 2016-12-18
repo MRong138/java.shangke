@@ -1,7 +1,7 @@
 package homeWorks1211;
 
 
-public class hm7 {
+public class checkNumber {
 
 	public static void main(String[] args) {
 		String s="324i字母325jj565汉字4tg数字tr";
@@ -9,7 +9,7 @@ public class hm7 {
 	}
 	public static void tong(String S){
 		System.err.println("字符串为"+S);
-		char[]s=S.toCharArray();
+char[]s=S.toCharArray();
 		int shu=0;
 		int hanzi=0;
 		int zimu=0;
@@ -21,9 +21,9 @@ public class hm7 {
 			else
 				hanzi++;
 		}
-		System.err.println("字母个数为："+zimu);
-		System.err.println("汉字个数为："+hanzi);
-		System.err.println("数字个数为："+shu);
+		System.out.println("字母个数为："+zimu);
+		System.out.println("汉字个数为："+hanzi);
+		System.out.println("数字个数为："+shu);
 	}
 
 }

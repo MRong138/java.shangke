@@ -9,7 +9,7 @@ package homeWorks1211;
 //• 邮箱地址中含有多了@或.
 //• 邮箱地址中.出现在@的前面
 //• 用户名里有其他字符
-public class hm1 {
+public class mailCheck {
 	public static void main(String[] args){
 		String mail="1234567@qq.com";
 		if(check(mail)&&checkduo(mail)&&checkorder(mail)&&checkorther(mail))

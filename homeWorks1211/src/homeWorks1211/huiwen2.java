@@ -1,7 +1,7 @@
 package homeWorks1211;
 
 import java.util.Scanner;
-public class hm81 {
+public class huiwen2 {
 
 	public static void main(String[] args) {
 		boolean flag=true;
