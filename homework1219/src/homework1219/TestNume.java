@@ -8,7 +8,7 @@ public class TestNume {
 	private void mian() {
 		Scanner sc=new Scanner(System.in);
 		String s=sc.next();
-		testnume(new testcolorEnu(TestColorEnum.RED));//老师这儿怎么传值啊？
+		testnume(new testcolorEnu(testcolorEnu.BLUE));//老师这儿怎么传值啊？
 	}
 	public static void testnume (testcolorEnu type){
 		switch (type) {

@@ -39,4 +39,9 @@ public class Student {
 			flag=false;
 		return flag;
 	}
+	@Override
+	public int hashCode() {
+//		String flag=this.name.hashCode();
+		return this.hashCode()+this.number;
+	}
 }

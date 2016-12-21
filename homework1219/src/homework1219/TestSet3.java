@@ -19,7 +19,7 @@ public class TestSet3 {
 			System.out.println(obj);
 		}
 		if (stu.equals(stu2) && stu.hashCode() == stu2.hashCode()) {
-			//老师，在哪儿改这个HashCode的函数？
+			//调用的是student的equals与hashCode,就在student里改这两个函数。
 			System.out.println("对象相等");
 		}else{
 			System.out.println("不相等");
