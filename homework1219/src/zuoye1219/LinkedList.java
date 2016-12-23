@@ -1,14 +1,5 @@
 package zuoye1219;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
-import java.util.function.UnaryOperator;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
-import java.util.function.UnaryOperator;
-
 public class LinkedList {
 	
 	transient Object[] elementData;

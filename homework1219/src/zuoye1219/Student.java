@@ -2,7 +2,7 @@ package zuoye1219;
 
 public class Student {
 	private String name;
-	private int number;
+	private Integer number;
 	public  Student(String name,int number){
 		this.name=name;
 		this.number=number;
@@ -16,7 +16,7 @@ public class Student {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getNumber() {
+	public Integer getNumber() {
 		return number;
 	}
 	public void setNumber(int number) {
@@ -41,7 +41,6 @@ public class Student {
 	}
 	@Override
 	public int hashCode() {
-
-		return this.hashCode();
+		return this.getNumber().hashCode()+this.getName().hashCode();
 	}
 }
