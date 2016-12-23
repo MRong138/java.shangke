@@ -14,20 +14,19 @@ public class TestHashSet {
 		s[2]=new Student ("Anndy",3);
 		s[3]=new Student ("Lucy",4);
 		s[4]=new Student ("Petter",5);
-		s[5]=new Student ("Petter",5);
+		s[5]=s[4];
+//		s[6]=s[4];	   //旭哥，这里多写了一个s[6]，怎么就超出数组范围了？
+		
 		for (int i = 0; i < s.length; i++) {
 			for (int j = i+1; j < s.length; j++) {
 				if(s[j].equals(s[i])&&s[j].hashCode()==s[i].hashCode())
 					s[j]=null;
 			}		
 		}
-		
-		stu.add(s[0]);
-		stu.add(s[1]);
-		stu.add(s[2]);
-		stu.add(s[3]);
-		stu.add(s[4]);
-		stu.add(s[5]);
+		for (int i = 0; i < s.length; i++) {
+			if(s[i]!=null)
+				stu.add(s[i]);
+		}
 		
 		for(Object obj:stu)
 			System.out.println(obj);

@@ -7,9 +7,6 @@ public class zifuchuan1 {
 		int xz = 0;
 		int dz = 0;
 		int other = 0;
-		String shuziStr="0123456789";
-		String xiaoxieStr="abcdefghijklmnopqrstuvwxyz";
-		String daxieStr="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		for (int i = 0; i < str.length(); i++) {
 			char c = str.charAt(i);
 			if(Character.isDigit(c)){
